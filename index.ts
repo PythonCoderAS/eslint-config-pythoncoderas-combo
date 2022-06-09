@@ -6,6 +6,8 @@ const config: BaseConfig = {
   extends: ["pythoncoderas-typescript", "pythoncoderas"],
   rules: {
     "import/extensions": "off",
+    "no-negated-condition": "off",
+
   },
 };
 
