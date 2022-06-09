@@ -3,13 +3,10 @@ import { Linter } from "eslint";
 import BaseConfig = Linter.BaseConfig;
 
 const config: BaseConfig = {
-  extends: [
-    "pythoncoderas-typescript",
-    "pythoncoderas"
-  ],
+  extends: ["pythoncoderas-typescript", "pythoncoderas"],
   rules: {
-    "import/extensions": "off"
-  }
+    "import/extensions": "off",
+  },
 };
 
 module.exports = config;
