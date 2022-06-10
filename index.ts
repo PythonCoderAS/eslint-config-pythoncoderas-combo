@@ -7,7 +7,6 @@ const config: BaseConfig = {
   rules: {
     "import/extensions": "off",
     "no-negated-condition": "off",
-
   },
 };
 
