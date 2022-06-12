@@ -1,6 +1,5 @@
 {
   "extends": [
-    "./dist/index.js",
-    "pythoncoderas"
+    "./dist/index.js"
   ]
 }

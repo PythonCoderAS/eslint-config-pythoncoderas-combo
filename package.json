@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pythoncoderas-combo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Combo config that I will be using in most of my projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

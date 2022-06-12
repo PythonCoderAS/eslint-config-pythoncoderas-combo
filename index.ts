@@ -7,7 +7,8 @@ const config: BaseConfig = {
   rules: {
     "import/extensions": "off",
     "no-negated-condition": "off",
-    "no-restricted-syntax": "off"
+    "no-restricted-syntax": "off",
+    "no-warning-comments": "off",
   },
 };
 
