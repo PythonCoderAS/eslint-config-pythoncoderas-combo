@@ -33,7 +33,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run semantic-release
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Which one do I need again?
           NPM_TOKEN: ${{ secrets.npm_token }}
