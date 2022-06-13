@@ -4,3 +4,15 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    commit-message:
+      prefix: "chore(deps-js): "
+      prefix-development: "chore(deps-js): "
+      include: scope
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore(deps-actions): "
+      prefix-development: "chore(deps-actions): "
+      include: scope
