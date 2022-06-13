@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pythoncoderas-combo",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "Combo config that I will be using in most of my projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,11 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check index.ts && eslint index.ts",
     "lint-fix": "prettier --write index.ts && eslint --fix index.ts",
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PythonCoderAS/eslint-config-pythoncoderas-combo.git"
+    "url": "https://github.com/PythonCoderAS/eslint-config-pythoncoderas-combo.git"
   },
   "keywords": [
     "eslint",
@@ -33,7 +34,8 @@
     "@types/eslint": "^8.4.3",
     "@types/node": "^17.0.41",
     "eslint": "^8.17.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "semantic-release": "^19.0.3"
   },
   "dependencies": {
     "eslint-config-pythoncoderas": "^2.0.0",
