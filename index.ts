@@ -9,6 +9,7 @@ const config: BaseConfig = {
     "no-negated-condition": "off",
     "no-restricted-syntax": "off",
     "no-warning-comments": "off",
+    "no-undef": "off"
   },
 };
 
