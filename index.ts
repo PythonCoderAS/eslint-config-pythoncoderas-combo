@@ -11,6 +11,7 @@ const config: BaseConfig = {
     "no-undef": "off",
     "import/no-mutable-exports": "off",
     "import/no-import-module-exports": "off",
+    "@typescript-eslint/no-var-requires": "off",
   },
 };
 
