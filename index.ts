@@ -1,4 +1,3 @@
-/* eslint-disable import/no-import-module-exports */
 import { Linter } from "eslint";
 import BaseConfig = Linter.BaseConfig;
 
@@ -10,6 +9,7 @@ const config: BaseConfig = {
     "no-restricted-syntax": "off",
     "no-warning-comments": "off",
     "no-undef": "off",
+    "import/no-mutable-exports": "off",
   },
 };
 
