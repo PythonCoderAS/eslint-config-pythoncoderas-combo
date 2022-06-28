@@ -10,6 +10,7 @@ const config: BaseConfig = {
     "no-warning-comments": "off",
     "no-undef": "off",
     "import/no-mutable-exports": "off",
+    "import/no-import-module-exports": "off",
   },
 };
 
