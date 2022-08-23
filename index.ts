@@ -1,4 +1,5 @@
 import { Linter } from "eslint";
+
 import BaseConfig = Linter.BaseConfig;
 
 const config: BaseConfig = {
