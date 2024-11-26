@@ -27,7 +27,7 @@
   "homepage": "https://github.com/PythonCoderAS/eslint-config-pythoncoderas-combo#readme",
   "peerDependencies": {
     "eslint": "^7.32.0 || ^8.17.0",
-    "prettier": "^2.6.2",
+    "prettier": "^3.3.3",
     "typescript": ">=4.2.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@types/eslint": "^9.6.0",
     "@types/node": "^22.0.0",
     "eslint": "^9.0.0",
-    "prettier": "^2.6.2",
+    "prettier": "^3.3.3",
     "semantic-release": "^24.0.0"
   },
   "dependencies": {
